@@ -1,4 +1,3 @@
-
 GLUON_SITE_FEEDS='rsk ffrl'
 
 PACKAGES_RSK_REPO=https://github.com/Freifunk-Rhein-Sieg/freifunk-packages
