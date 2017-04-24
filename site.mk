@@ -1,5 +1,4 @@
 GLUON_SITE_PACKAGES := \
-GLUON_SITE_PACKAGES := \
     gluon-alfred \
     gluon-autoupdater \
     gluon-banner \
@@ -26,17 +25,17 @@ GLUON_SITE_PACKAGES := \
     gluon-next-node \
     gluon-radvd \
     gluon-respondd \
-    gluon-rfkill-disable
-    gluon-setup-mode \
+    gluon-rfkill-disable \
+		gluon-setup-mode \
     gluon-ssid-changer \
     gluon-status-page \
     gluon-tunneldigger-watchdog \
-    haveged
+    haveged \
     iptables \
     iwinfo \
     rsk-nightswitch \
 
-DEFAULT_GLUON_RELEASE := 2015.1.1-stable-2.1
+DEFAULT_GLUON_RELEASE := 2016.2.5-stable-2.5-l2tp
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
