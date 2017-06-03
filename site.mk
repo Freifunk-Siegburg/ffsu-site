@@ -20,7 +20,6 @@ GLUON_SITE_PACKAGES := \
     gluon-luci-wifi-config \
     gluon-mesh-batman-adv-15 \
     gluon-mesh-vpn-tunneldigger \
-    gluon-migrate-vpn \
     gluon-neighbour-info \
     gluon-next-node \
     gluon-radvd \
@@ -35,7 +34,7 @@ GLUON_SITE_PACKAGES := \
     iwinfo \
     rsk-nightswitch \
 
-DEFAULT_GLUON_RELEASE := 2016.2.5-stable-2.5-l2tp
+DEFAULT_GLUON_RELEASE := 2016.2.5-stable-2.8-l2tp
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
