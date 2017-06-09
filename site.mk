@@ -25,7 +25,7 @@ GLUON_SITE_PACKAGES := \
     gluon-radvd \
     gluon-respondd \
     gluon-rfkill-disable \
-		gluon-setup-mode \
+    gluon-setup-mode \
     gluon-ssid-changer \
     gluon-status-page \
     gluon-tunneldigger-watchdog \
