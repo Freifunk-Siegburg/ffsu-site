@@ -19,6 +19,7 @@ GLUON_SITE_PACKAGES := \
     gluon-luci-private-wifi \
     gluon-luci-wifi-config \
     gluon-mesh-batman-adv-15 \
+    gluon-authorized-keys \
     gluon-mesh-vpn-tunneldigger \
     gluon-neighbour-info \
     gluon-next-node \
