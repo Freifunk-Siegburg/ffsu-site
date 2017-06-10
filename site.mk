@@ -35,10 +35,12 @@ GLUON_SITE_PACKAGES := \
     rsk-nightswitch \
     gluon-rsk-config
 
-DEFAULT_GLUON_RELEASE := 2016.2.5-stable-2.8
+DEFAULT_GLUON_RELEASE := 2016.2.5-stable-2.8.1
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_PRIORITY ?= 0
 GLUON_LANGS ?= en de
 GLUON_REGION ?= eu
+# Build ATH10K images
+GLUON_ATH10K_MESH ?= 11s
