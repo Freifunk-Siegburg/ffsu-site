@@ -1,9 +1,0 @@
-GLUON_SITE_FEEDS='rsk ffrl'
-
-PACKAGES_RSK_REPO=https://github.com/Freifunk-Rhein-Sieg/freifunk-packages
-PACKAGES_RSK_COMMIT=e0e1a0dee2e9b6f99f79d4c39e915de17a44afe7
-PACKAGES_RSK_BRANCH=master
-
-PACKAGES_FFRL_REPO=https://github.com/ffrl/ffrl-packages
-PACKAGES_FFRL_COMMIT=c6a6fd5ff2954495d8b6feae4094805d206917fc
-PACKAGES_FFRL_BRANCH=Branch_v2016.1.x
