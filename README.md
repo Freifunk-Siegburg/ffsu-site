@@ -1,2 +1,3 @@
 # ffsu-site
-# site.conf für Siegburg Domain
+# site-dirs für Rhein-Sieg Domains
+#
