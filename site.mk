@@ -33,7 +33,8 @@ GLUON_SITE_PACKAGES := \
     iptables \
     iwinfo \
     rsk-nightswitch \
-    gluon-rsk-config
+    gluon-rsk-config \
+    gluon-treatment
 
 DEFAULT_GLUON_RELEASE := 2016.2.6-stable-2.8.1
 # Allow overriding the release number from the command line
