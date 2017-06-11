@@ -1,3 +1,2 @@
 # ffsu-site
-# site-dirs für Rhein-Sieg Domains
-#
+# tools for building firmware images from gluon 2017.x
