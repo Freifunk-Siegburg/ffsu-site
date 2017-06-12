@@ -141,16 +141,16 @@ case $CHOICE in
                 make clean; make V=s GLUON_TARGET=ar71xx-tiny
                 #
                 # * ar71xx-nand
-                make cleani; make V=s GLUON_TARGET=ar71xx-nand
+                make clean; make V=s GLUON_TARGET=ar71xx-nand
                 #
                 # * brcm2708-bcm2708
-                make cleani; make V=s GLUON_TARGET=brcm2708-bcm2708
+                make clean; make V=s GLUON_TARGET=brcm2708-bcm2708
                 #
                 # * brcm2708-bcm2709
-                make cleani; make V=s GLUON_TARGET=brcm2708-bcm2709
+                make clean; make V=s GLUON_TARGET=brcm2708-bcm2709
                 #
                 # * mpc85xx-generic
-                make cleani; make V=s GLUON_TARGET=mpc85xx-generic
+                make clean; make V=s GLUON_TARGET=mpc85xx-generic
                 #
                 # * x86-generic
                 make clean; make V=s GLUON_TARGET=x86-generic
@@ -159,7 +159,7 @@ case $CHOICE in
                 make clean; make V=s GLUON_TARGET=x86-geode
                 #
                 # * x86-64
-                make cleani; make V=s GLUON_TARGET=x86-64
+                make clean; make V=s GLUON_TARGET=x86-64
                 #
 
             ;;
