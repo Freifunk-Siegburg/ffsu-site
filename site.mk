@@ -21,7 +21,6 @@ GLUON_SITE_PACKAGES := \
     gluon-mesh-batman-adv-15 \
     gluon-mesh-vpn-tunneldigger \
     gluon-neighbour-info \
-    gluon-next-node \
     gluon-radvd \
     gluon-respondd \
     gluon-setup-mode \
