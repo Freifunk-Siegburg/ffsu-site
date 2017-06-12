@@ -13,7 +13,7 @@ HEIGHT=20
 WIDTH=45
 CHOICE_HEIGHT=14
 BACKTITLE="Gluon 2017.1 Firmware Builder"
-TITLE="L2TP su-lo modulares make"
+TITLE="L2TP rhein-sieg modulares make"
 MENU="Welche Architektur(en) willst Du bauen:"
 
 OPTIONS=(0 "make update"
