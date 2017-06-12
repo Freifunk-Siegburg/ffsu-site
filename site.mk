@@ -31,8 +31,7 @@ GLUON_SITE_PACKAGES := \
     iptables \
     iwinfo \
     rsk-nightswitch \
-    gluon-rsk-config \
-    gluon-treatment
+    gluon-rsk-config 
 
 
 DEFAULT_GLUON_RELEASE := 2017.1-stable-2.9
