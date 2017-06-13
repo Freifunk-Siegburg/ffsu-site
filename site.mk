@@ -1,48 +1,45 @@
 GLUON_SITE_PACKAGES := \
-    gluon-alfred \
+    gluon-mesh-batman-adv-15 \
+    gluon-respondd \
+    gluon-neighbour-info \
     gluon-autoupdater \
-    gluon-config-mode-autoupdater \
-    gluon-config-mode-contact-info \
+    gluon-setup-mode \
     gluon-config-mode-core \
-    gluon-config-mode-geo-location \
+    gluon-config-mode-autoupdater \
     gluon-config-mode-hostname \
-    gluon-config-mode-mesh-vpn \
-    gluon-core \
-    gluon-banner \
-    gluon-check-client-mesh \
-    gluon-check-mesh \
-    gluon-ebtables \
+    gluon-config-mode-geo-location \
+    gluon-config-mode-contact-info \
+    gluon-config-mode-tunneldigger \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
-    gluon-ebtables-source-filter \
-    gluon-web-admin \
-    gluon-web-autoupdater \
-    gluon-web-network \
-    gluon-web-private-wifi \
-    gluon-web-wifi-config \
-	gluon-authorized-keys \
-    gluon-mesh-batman-adv-15 \
+    gluon-luci-admin \
+    gluon-luci-autoupdater \
+    gluon-luci-portconfig \
+    gluon-luci-private-wifi \
+    gluon-luci-node-role \
+    gluon-next-node \
     gluon-mesh-vpn-tunneldigger \
-    gluon-neighbour-info \
-    gluon-radvd \
-    gluon-respondd \
-    gluon-setup-mode \
-    gluon-ssid-changer \
-    gluon-status-page \
     gluon-tunneldigger-watchdog \
-    haveged \
-    iptables \
+    gluon-authorized-keys \
+    gluon-radvd \
+    gluon-status-page \
+    gluon-check-mesh \
+    gluon-check-client-mesh \
     iwinfo \
+    iptables \
+    haveged \
+    gluon-ssid-changer \
+    gluon-banner \
     rsk-nightswitch \
-    gluon-rsk-config
+    gluon-rsk-config \
+    gluon-treatment
 
-
-DEFAULT_GLUON_RELEASE := 2017.1-stable-2.9
+DEFAULT_GLUON_RELEASE := 2016.2.6-stable-2.8.1
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_PRIORITY ?= 0
-GLUON_LANGS ?= de en
+GLUON_LANGS ?= en de
 GLUON_REGION ?= eu
 # Build ATH10K images
 GLUON_ATH10K_MESH ?= 11s
