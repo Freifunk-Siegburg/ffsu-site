@@ -36,7 +36,7 @@ GLUON_SITE_PACKAGES := \
     gluon-rsk-config
 
 
-DEFAULT_GLUON_RELEASE := 2017.1-stable-2.9.2
+DEFAULT_GLUON_RELEASE := stable-2.9.3
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
