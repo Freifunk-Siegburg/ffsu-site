@@ -34,10 +34,11 @@ GLUON_SITE_PACKAGES := \
     iwinfo \
     rsk-nightswitch \
     gluon-rsk-block-mesh \
-    gluon-rsk-config
+    gluon-rsk-config \
+    rsk-robinson
 
 
-DEFAULT_GLUON_RELEASE := stable-2.9.5
+DEFAULT_GLUON_RELEASE := stable-2.9.6
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
