@@ -47,3 +47,4 @@ GLUON_LANGS ?= de en
 GLUON_REGION ?= eu
 # Build ATH10K images
 GLUON_ATH10K_MESH ?= 11s
+GLUON_WLAN_MESH ?= 11s
