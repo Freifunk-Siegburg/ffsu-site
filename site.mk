@@ -25,6 +25,7 @@ GLUON_SITE_PACKAGES := \
     gluon-neighbour-info \
     gluon-radvd \
     gluon-respondd \
+    respondd-module-airtime \
     gluon-setup-mode \
     gluon-ssid-changer \
     gluon-status-page \
@@ -38,7 +39,7 @@ GLUON_SITE_PACKAGES := \
     rsk-robinson
 
 
-DEFAULT_GLUON_RELEASE := stable-2.9.16
+DEFAULT_GLUON_RELEASE := stable-2.9.17
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
